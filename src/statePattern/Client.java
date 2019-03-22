@@ -1,6 +1,6 @@
 package statePattern;
 
-public class Start {
+public class Client {
 	// [Design Pattern] 狀態模式(State Pattern)
 	//
 	// State Pattern 主要是解決控制一個物件狀態條件表達過於複雜的情況(簡化複雜的判斷邏輯)。
@@ -25,10 +25,10 @@ public class Start {
 	public static void main(String[] args) {
 		Context context = new Context();
 
-		System.out.println("Start工作單現在狀態:" + context.GetState().toString());
-		System.out.println("Start工作單現在狀態:" + context.GetState().toString());
-		System.out.println("Start工作單現在狀態:" + context.GetState().toString());
-		System.out.println("Start工作單現在狀態:" + context.GetState().toString());
+		System.out.println("Start工作單現在狀態:" + context.GetState());
+		System.out.println("Start工作單現在狀態:" + context.GetState());
+		System.out.println("Start工作單現在狀態:" + context.GetState());
+		System.out.println("Start工作單現在狀態:" + context.GetState());
 
 	}
 

@@ -22,7 +22,6 @@ class You {
 	// 如果是面對大型系統有大量的類別和 package 時，在適當的位置使用 Facade Pattern 會很方便。
 	//
 
-	// 這是一個抽象的示例。一個客戶「you」通過外觀接口「computer」獲取計算機內部複雜的系統信息。
 	public static void main(String[] args) {
 		Computer facade = new Computer();
 		facade.startComputer();
