@@ -21,5 +21,9 @@ public class Client {
 
 		// 制造一个胖胖的代打工程師3
 		System.out.println("获得了" + soul.createDoppelganger(new FatBuilder(), "代打工程師3"));
+
+		System.out.println("----------------------------------------");
+
+		System.out.println("获得了" + soul.createDoppelganger(new FatBuilder(), "代打工程師3"));
 	}
 }

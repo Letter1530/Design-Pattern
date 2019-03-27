@@ -15,7 +15,7 @@ public class Client {
 	// 3、当发起人的状态改变的时候，有可能这个状态无效。如果状态改变的成功率不高的话，可以采取“假如”协议模式。“假如”的意思是指，我们将一直假如状态的改变会失败，从而对此做出一系列准备的工作。不过很明显，如果状态改变的成功率很高，则这样做的收益甚微。
 
 	// 备忘录模式使用三个类 Memento、Originator 和 CareTaker。
-	// 一个便是发起人（Originator）:Person.java，它不仅有自己的状态，而且还负责创建一个备忘录（Memento）:Memory.java以及使用备忘录恢复自己的状态，而备忘录则记录了发起人的状态
+	// 一个便是发起人（Originator）:Person.java，它不仅有自己的状态，而且还负责创建一个备忘录（Memento）:Lyingdown.java以及使用备忘录恢复自己的状态，而备忘录则记录了发起人的状态
 	// 最后一个角色管理者（Caretaker）: Soul.java，则是用来管理备忘录的。
 	public static void main(String[] args) {
 		Soul soul = new Soul();

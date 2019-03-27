@@ -1,5 +1,8 @@
 package facadePattern;
 
+import facadePattern.computer.Computer;
+
+
 class You {
 
 	// 用的時間點
@@ -23,7 +26,13 @@ class You {
 	//
 
 	public static void main(String[] args) {
-		Computer facade = new Computer();
-		facade.startComputer();
+		// 一班外觀
+		Computer computer = new Computer();
+		computer.startComputer();
+
+		// Facade Pattern 的遞迴應用
+		AfterWork afterWork = new AfterWork();
+		afterWork.afterWork();
+
 	}
 }
