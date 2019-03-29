@@ -1,6 +1,6 @@
-package facadePattern;
+package facadePattern.computer;
 
-class Computer {
+public class Computer {
 	public void startComputer() {
 
 		CPU cpu = new CPU();

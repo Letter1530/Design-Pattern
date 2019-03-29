@@ -1,7 +1,7 @@
-package facadePattern;
+package facadePattern.computer;
 
 public class Memory {
 	public void load(long position, byte[] data) {
-		System.out.println("Memory  load");
+		System.out.println("Lyingdown  load");
 	}
 }
