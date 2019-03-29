@@ -10,7 +10,7 @@ public class Reader implements IObserver {
 
 
 	/**
-	 * Observer(NewOffice)的更新通知
+	 * Observer(NewsOffice)的更新通知
 	 */
 	@Override
 	public void update(String pMessage) {

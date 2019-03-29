@@ -7,7 +7,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		/*
-		 * 觀察者模式定義了物件之間的一對多關係，如此一來，當一個物件改變狀態，其他相依者都會收到通知並自動被更新
+		 * 觀察者模式定義了物件之間的一對多關係，如此一來，當一個物件改變狀態，其他相依者都會收到通知並自動被更新-
 		 */
 		NewOffice office = new NewOffice(); // 建立一個新聞社(Subject)
 
