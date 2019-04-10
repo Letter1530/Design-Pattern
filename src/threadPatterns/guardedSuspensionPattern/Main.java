@@ -1,9 +1,5 @@
 package threadPatterns.guardedSuspensionPattern;
 
-//當光靠synchronized已經沒有辦法保護shared resource的時候，通常表示存取shared resource的時候需要條件，這時候就要設計Guarded Suspension Pattern。
-
-//最常見的例子是client端以及server端的溝通，client端會不斷地送request給server，而server會不停地去收request，假設我們用queue去儲存request，
-//那麼server就不能在queue為empty的時候去接收request，這個就是存取的條件---queue不能是empty。
 //guarded 是 "被保護著" 或 "被防衛著" 的意思. suspension 則是 "暫停" 的意思. 
 //當現在不適合馬上執行某個操作時, 就想要要求該線程等待, 這就是 Guarded Suspension Pattern. Guarded Suspension Pattern 會要求線程等候, 以保障實例的正常工作.
 
