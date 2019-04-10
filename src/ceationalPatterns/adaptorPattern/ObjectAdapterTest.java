@@ -1,4 +1,4 @@
-package adaptorPattern;
+package ceationalPatterns.adaptorPattern;
 
 /*對象適配器模式*///可釆用將現有組件庫中已經實現的組件引入適配器類中，該類同時實現當前系統的業務接口。
 

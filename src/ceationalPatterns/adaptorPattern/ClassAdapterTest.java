@@ -1,4 +1,4 @@
-package adaptorPattern;
+package ceationalPatterns.adaptorPattern;
 
 //http://c.biancheng.net/view/1361.html
 //適配器(轉接器)（Adapter）模式：將一個類的接口轉換成客戶希望的另外一個接口，使得原本由於接口不兼容而不能一起工作的那些類能一起工作。
