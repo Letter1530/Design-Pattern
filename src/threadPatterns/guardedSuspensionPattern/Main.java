@@ -10,7 +10,8 @@ package threadPatterns.guardedSuspensionPattern;
 //一般來說，單一執行緒的程式，防衛條件會使用 if 敘述處理。從這個角度來看，Guarded Suspension Pattern 就像是多執行緒版的 if。
 
 //再利用性
-//在程式中，會發現只有 RequestQueue 類別有用到 wait 及 notifyAll。之所以這樣做的原因是因為，使用 RequestQueue 類別的一方，並不需要考慮 wait 以及 notifyAll 的問題，只要呼叫 getRequest 方法與 putRequest 方法就行了。
+//在程式中，會發現只有 RequestQueue 類別有用到 wait 及 notifyAll。之所以這樣做的原因是因為，使用 RequestQueue 類別的一方，
+//並不需要考慮 wait 以及 notifyAll 的問題，只要呼叫 getRequest 方法與 putRequest 方法就行了。
 
 //各式各樣的稱呼
 //Guarded Suspension Pattern 共通的特徵有下面三點：
